@@ -1,6 +1,9 @@
 
 
 namespace Managers{
+    /// <summary>
+    /// This class is being used to spawn new magagers using functions;
+    /// </summary>
     class ManagerFactory{
         Bank bank;
         public ManagerFactory(Bank b){
@@ -25,6 +28,9 @@ namespace Managers{
             return new DepositManager(bank);
         }
 
+        /// <summary>
+        /// make new manager from command string
+        /// </summary>
         public Manager GetManager(string service){
             if(service[0] == 'r'){
                 return CreateRegisterManager();

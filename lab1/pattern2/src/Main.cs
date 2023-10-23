@@ -1,6 +1,7 @@
 ﻿
 using Football;
 
+//prototype
 //Objects that will be duplicated -----------------------------------------
 Player goalkeeper = new Player();
 goalkeeper.position = PlayerPosition.goalkeeper;
