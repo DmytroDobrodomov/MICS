@@ -31,14 +31,14 @@ namespace Managers{
         /// <summary>
         /// make new manager from command string
         /// </summary>
-        public Manager GetManager(string service){
-            if(service[0] == 'r'){
+        public Manager GetManager(BankServiceType service){
+            if(service == BankServiceType.register){
                 return CreateRegisterManager();
             }
-            else if(service[0] == 'c'){
+            else if(service == BankServiceType.credit){
                 return CreateCreditManager();
             }
-            else if(service[0] == 'd'){
+            else if(service == BankServiceType.deposit){
                 return CreateDepositManager();
             }
             return CreateInfoManager();
