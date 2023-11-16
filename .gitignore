@@ -1,0 +1,14 @@
+#vscode files
+lab1/pattern1/.vscode
+lab1/pattern1/bin
+lab1/pattern1/obj
+lab1/pattern2/.vscode
+lab1/pattern2/bin
+lab1/pattern2/obj
+
+lab1/pattern1/pattern1.csproj
+lab1/pattern1/pattern1.sln
+
+lab1/pattern2/pattern2.sln
+lab1/pattern2/pattern2.csproj
+
