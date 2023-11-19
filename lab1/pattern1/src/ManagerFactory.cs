@@ -31,7 +31,7 @@ namespace Managers{
         /// <summary>
         /// make new manager from command string
         /// </summary>
-        public Manager GetManager(BankServiceType service){
+        public Manager GetManagerByService(BankServiceType service){
             if(service == BankServiceType.register){
                 return CreateRegisterManager();
             }
