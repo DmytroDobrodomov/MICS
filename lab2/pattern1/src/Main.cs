@@ -9,3 +9,6 @@ Console.WriteLine("\nResult = "+result+"\n\n");
 
 result = coffeeMachine.GetCappucino(CoffeeMachine.Size.normal);
 Console.WriteLine("\nResult = "+result+"\n\n");
+
+result = coffeeMachine.GetCappucino(CoffeeMachine.Size.big);
+Console.WriteLine("\nResult = "+result+"\n\n");

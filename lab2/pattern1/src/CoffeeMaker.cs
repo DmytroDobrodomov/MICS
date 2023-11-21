@@ -1,6 +1,9 @@
 
 namespace CoffeeMachine{
 
+/// <summary>
+/// here we can find coffee making functions (like adding water or blending coffee)
+/// </summary>
 public class CoffeeMaker{
     public void AddWater(int ml){
         Console.WriteLine("added "+ ml + "ml of water");
@@ -8,6 +11,7 @@ public class CoffeeMaker{
 
     public int BlendCoffee(int g){
         Console.WriteLine("blended "+ g + "g of coffee");
+        //returns blended coffee ammount
         return g;
     }
 

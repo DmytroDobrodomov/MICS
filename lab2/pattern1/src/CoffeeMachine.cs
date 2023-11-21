@@ -7,6 +7,9 @@ public enum Size{
     big
 }
 
+/// <summary>
+/// main component that makes the process easy (facade)
+/// </summary>
 public class CoffeeMachine{
     private CoffeeMaker coffeeMaker;
     private Diode diode;
@@ -34,6 +37,7 @@ public class CoffeeMachine{
 
     public string GetEspresso(Size size){
         Console.WriteLine("Selected Espresso mode: size="+size.ToString());
+        paymentTerminal.GetPayment();
         if(size == Size.normal){
             coffeeMaker.MakeEspresso(40,10);
         }
@@ -46,6 +50,7 @@ public class CoffeeMachine{
 
     public string GetLatte(Size size){
         Console.WriteLine("Selected Latte mode: size="+size.ToString());
+        paymentTerminal.GetPayment();
         if(size == Size.normal){
             coffeeMaker.MakeEspresso(40,10);
             coffeeMaker.AddMilk(coffeeMaker.MixMilk(150));
@@ -60,6 +65,7 @@ public class CoffeeMachine{
 
     public string GetCappucino(Size size){
         Console.WriteLine("Selected Latte mode: size="+size.ToString());
+        paymentTerminal.GetPayment();
         if(size == Size.normal){
             coffeeMaker.AddMilk(coffeeMaker.MixMilk(100));
             coffeeMaker.MakeEspresso(40,10);
