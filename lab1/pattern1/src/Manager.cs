@@ -25,9 +25,6 @@ class Manager{
         int ret = BANK.AddClient(name);
         return ret;
     }
-    public string ConsultClient(Clients.Client target){
-        return "Consultation...\n";
-    }
     public void TalkToClient(){
         Console.WriteLine("Manager: Hello, dude!");
         while(true){

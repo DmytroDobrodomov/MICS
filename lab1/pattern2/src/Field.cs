@@ -1,15 +1,15 @@
 namespace Football{
     public class FTeam{
         List<Player> players;
-        public string cmdName;
+        public string teamName;
 
 
         public FTeam(string name){
             players = new List<Player>();
-            cmdName = name;
+            teamName = name;
         }
 
-        public void PushCmdPlayer(Player player){
+        public void PushTeamPlayer(Player player){
             //a command can't have more than one goalkeeper OR more than 11 players
             //all additional players will be in reserve
             if((player.position == PlayerPosition.goalkeeper && HasGoalkeeper())||(players.Count>=11)){
@@ -24,8 +24,8 @@ namespace Football{
             }
             return false;
         }
-        public void GetCommandMembers(){
-            Console.WriteLine("Command name: "+cmdName);
+        public void GetMembers(){
+            Console.WriteLine("Command name: "+teamName);
             foreach(Player i in players){
                 if(!i.reservePlayer) Console.WriteLine(i.name+": "+i.position.ToString());
                 else Console.WriteLine(i.name+": (in reserve)");
@@ -44,9 +44,9 @@ namespace Football{
 
         public void GetMatchInfo(){
             Console.WriteLine("We have 2 teams:");
-            team1.GetCommandMembers();
+            team1.GetMembers();
             Console.WriteLine("___________________");
-            team2.GetCommandMembers();
+            team2.GetMembers();
         }
 
 

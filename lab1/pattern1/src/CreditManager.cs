@@ -7,7 +7,7 @@ class CreditManager : Manager{
         desc = "credit manager helps to manage credits";
     }
 
-    public void GiveCredit(Services.Credit credit){
+    protected void GiveCredit(Services.Credit credit){
         BANK.credits.Add(credit);
     }
 

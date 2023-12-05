@@ -7,7 +7,7 @@ class DepositManager : Manager{
         desc = "deposit manager helps to manage deposits";
     }
 
-    public void GiveDeposit(Services.Deposit deposit){
+    protected void GiveDeposit(Services.Deposit deposit){
         BANK.deposits.Add(deposit);
     }
 
