@@ -1,3 +1,6 @@
+/// <summary>
+/// Data in _cloud folder
+/// </summary>
 public class Cloud{
     public string data;
     public Cloud(){

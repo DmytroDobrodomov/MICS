@@ -1,3 +1,7 @@
+/// <summary>
+/// Loaders have Load() function
+/// with different data quality
+/// </summary>
 public interface ILoader{
     public string buffer{get;set;}
     public void Load(Device device, Cloud cloud, int spd);
