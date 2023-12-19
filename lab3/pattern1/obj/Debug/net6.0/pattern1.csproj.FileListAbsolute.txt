@@ -1,0 +1,15 @@
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/bin/Debug/net6.0/pattern1
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/bin/Debug/net6.0/pattern1.deps.json
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/bin/Debug/net6.0/pattern1.runtimeconfig.json
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/bin/Debug/net6.0/pattern1.dll
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/bin/Debug/net6.0/ref/pattern1.dll
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/bin/Debug/net6.0/pattern1.pdb
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/obj/Debug/net6.0/pattern1.csproj.AssemblyReference.cache
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/obj/Debug/net6.0/pattern1.GeneratedMSBuildEditorConfig.editorconfig
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/obj/Debug/net6.0/pattern1.AssemblyInfoInputs.cache
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/obj/Debug/net6.0/pattern1.AssemblyInfo.cs
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/obj/Debug/net6.0/pattern1.csproj.CoreCompileInputs.cache
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/obj/Debug/net6.0/pattern1.dll
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/obj/Debug/net6.0/ref/pattern1.dll
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/obj/Debug/net6.0/pattern1.pdb
+/home/decaianinfinity/githubReps/MICS/lab3/pattern1/obj/Debug/net6.0/pattern1.genruntimeconfig.cache

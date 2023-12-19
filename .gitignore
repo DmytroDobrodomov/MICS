@@ -27,3 +27,17 @@ lab2/pattern1/pattern1.sln
 lab2/pattern2/pattern2.sln
 lab2/pattern2/pattern2.csproj
 
+#vscode files (lab3)
+lab3/pattern1/.vscode
+lab3/pattern1/bin
+lab3/pattern1/obj
+lab3/pattern2/.vscode
+lab3/pattern2/bin
+lab3/pattern2/obj
+
+lab3/pattern1/pattern1.csproj
+lab3/pattern1/pattern1.sln
+
+lab3/pattern2/pattern2.sln
+lab3/pattern2/pattern2.csproj
+
